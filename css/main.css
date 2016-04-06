@@ -37,20 +37,32 @@ h1{
 	margin-bottom: 4%;
 }
 
-.out, .lear{
+.out, .lear {
 	display: inline-block;
 	margin-top: 10%;
 	padding: 1%;
 
 }
-.out:hover, .lear:hover{
+.out:hover, .lear:hover {
 	background-color: #0dc0c0;
 }
-.out{
+.out {
 	background-color: gray;
 	margin-right: 4%;
 }
 
-.lear{
+.lear {
 	background-color: blue;
+}
+.parte1 {
+	font-family: Arial;
+	font-size: 15px;
+	padding: 50px;
+}
+.parrafo {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.fa {
+	color: #40CBBD;
 }
