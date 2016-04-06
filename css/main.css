@@ -5,7 +5,21 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 
+ 
+}
+nav li{
+	display: inline-block;
 
+}
+
+.lista{
+	
+	padding-left: 30%;
+}
+
+a:hover{
+	
+	color: #0dc0c0;
 }
 
 /*header*/
