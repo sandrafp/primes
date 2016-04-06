@@ -19,10 +19,17 @@ nav li{
 
 a:hover{
 	
-	color: #0dc0c0;
+	color: white;
 }
 
+.lis:hover{
+	color:#0dc0c0 ;
+}
+
+
 /*header*/
+
+/*header section 2*/
 .size{
 	font-size: 20px;
 }
@@ -36,21 +43,48 @@ a:hover{
 h1{
 	margin-bottom: 4%;
 }
-
-.out, .lear{
+.botom{
 	display: inline-block;
-	margin-top: 10%;
-	padding: 1%;
-
+	margin-top: 5%;
 }
+
 .out:hover, .lear:hover{
 	background-color: #0dc0c0;
 }
 .out{
 	background-color: gray;
-	margin-right: 4%;
+	padding: 10px 16px;
+	margin-right: 10px;
+	
 }
 
 .lear{
 	background-color: blue;
+	padding: 10px 16px;
 }
+
+/*fin header section 2 */
+
+
+/*section 2*/
+
+.computador{
+	background: url("../img/laptop-features.png");
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 10%;
+	text-align: left;
+
+
+}
+
+.m-features{
+	font-size: 30px;
+	padding-bottom: 3%;
+}
+
+
+
+
