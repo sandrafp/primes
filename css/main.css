@@ -1,47 +1,34 @@
 /*header*/
 
-.bg-img-block.notebook{
+.bg-img-block.notebook {
 	background: url("../img/background/hero.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-
- 
 }
-nav li{
+nav li {
 	display: inline-block;
-
 }
-
-.lista{
-	
+.lista {	
 	padding-left: 30%;
 }
-
-a:hover{
-	
+a:hover {	
 	color: #0dc0c0;
 }
-
 /*header*/
-.size{
+.size {
 	font-size: 20px;
 }
-
-
 .launch{
 	height: 550px;
     padding-top: 14%;
 }
-
-h1{
+h1 {
 	margin-bottom: 4%;
 }
-
-.out, .lear {
+.out .lear {
 	display: inline-block;
 	margin-top: 10%;
 	padding: 1%;
-
 }
 .out:hover, .lear:hover {
 	background-color: #0dc0c0;
@@ -50,10 +37,10 @@ h1{
 	background-color: gray;
 	margin-right: 4%;
 }
-
 .lear {
 	background-color: blue;
 }
+/*parte1*/
 .parte1 {
 	font-family: Arial;
 	font-size: 15px;
