@@ -1,12 +1,35 @@
-/*header*/
+/*header parte-1*/
 
 .bg-img-block.notebook {
 	background: url("../img/background/hero.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
+	height: 100vh;
+}
+
+
+.notebook::before{
+  background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.prime {
+	
+	height: 100px;
+}
+.fa-star-half-o{
+	color: white;
+    font-size: 30px;
+    padding-top: 5%;
+    position: relative;
 }
 nav li {
 	display: inline-block;
+	position: relative;
 }
 .lista {	
 	padding-left: 30%;
@@ -15,7 +38,7 @@ nav li {
 a:hover {	
 	color: #0dc0c0;
 }
-/*header*/
+
 .size {
 	font-size: 20px;
 }
@@ -30,16 +53,21 @@ a:hover{
 }
 
 
-/*header*/
+/*final header parte-1*/
 
-/*header section 2*/
+/*header parte-2*/
 .size {
 	font-size: 20px;
+}
+
+.negrita{
+	font-size: 40px;
 }
 .launch {
 	height: 550px;
     padding-top: 14%;
-    opacity: 0.5;
+    position: relative;
+  
 }
 h1 {
 	margin-bottom: 4%;
@@ -48,7 +76,7 @@ h1 {
 .out .lear {
 	display: inline-block;
 	margin-top: 10%;
-	padding: 1%;
+	
 }
 
 .botom{
@@ -66,20 +94,27 @@ h1 {
 	margin-right: 10px;
 	
 }
-<
+
 .lear {
 
-	background-color: blue;
+	background-color: gray;
 	opacity:0.5;
 	padding: 10px 16px;
 }
 
-/*fin header section 2 */
+/*fin header parte-2 */
 
+/*section parte 1 y 3*/
+.parte1 {
+	font-family: Arial;
+	font-size: 15px;
+	padding: 50px;
+}
+/*final section parte 1 y 3*/
 
-/*section 2*/
+/*section parte 2*/
 
-.computador{
+.computador {
 	background: url("../img/laptop-features.png");
 	height: 500px;
 	background-size: cover;
@@ -87,26 +122,14 @@ h1 {
 	background-position: center;
 	margin-top: 10%;
 	text-align: left;
-
-
 }
-
-.m-features{
+.m-features {
 	font-size: 30px;
 	padding-bottom: 3%;
 }
+/*final section parte 2*/
 
-/*parte1*/
-.parte1 {
-	font-family: Arial;
-	font-size: 15px;
-	padding: 50px;
-}
-
-
-
-
-/* parte-5 titulo/nav*/
+/* parte 4 titulo/nav*/
 
 .t-porlfolio {
 	margin-top: 4%;
@@ -128,9 +151,9 @@ h1 {
 	color: white;
 }
 
-/*parte-5 titulo/nav listo */
+/*parte-4 titulo/nav listo */
 
-/*parte-5 img*/
+/*parte-4 img*/
 
 .grid-fondo {
 	background-color: white;
@@ -149,9 +172,12 @@ h1 {
 	margin-left: 8%;
 }
 
-/*fin parte-5*/
+/*fin parte-4*/
 
-/*inicio parte-7*/
+
+
+
+/*inicio parte 6 */
 
 .c-p-7 {
 	padding: 2% 5%;
@@ -173,4 +199,26 @@ h1 {
 	padding-top: 2%;
 	padding-bottom: 4%;
 }
-/*fin parte-7*/
+/*fin parte 6*/
+
+
+/*falta parte 7*/
+
+
+/*parte 8 */
+	.col-12 .fa {
+	margin-left: 3%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+.follow-us {
+	margin-bottom: 3%;
+}
+
+
+/*footer*/
+.bg-plomo{
+	background-color: #585050;
+    height: 85px;
+    padding-top: 3%;
+}
