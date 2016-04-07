@@ -1,11 +1,31 @@
-/*header*/
+/*header parte-1*/
 .bg-img-block.notebook {
 	background: url("../img/background/hero.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
+	height: 100vh;
+}
+.notebook::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.prime {
+	height: 100px;
+}
+.fa-star-half-o {
+	color: white;
+  font-size: 30px;
+  padding-top: 5%;
+  position: relative;
 }
 nav li {
 	display: inline-block;
+	position: relative;
 }
 .lista {	
 	padding-left: 30%;
@@ -16,38 +36,37 @@ a:hover {
 .size {
 	font-size: 20px;
 }
-a:hover{	
+a:hover {	
 	color: white;
 }
-.lis:hover{
+.lis:hover {
 	color:#0dc0c0 ;
 }
-/*header*/
-/*header section 2*/
-.size {
-	font-size: 20px;
+ /*final header parte-1*/
+/*header parte-2*/
+.negrit{
+	font-size: 40px;
 }
 .launch {
 	height: 550px;
-    padding-top: 14%;
-    opacity: 0.5;
+  padding-top: 14%;
+  position: relative; 
 }
 h1 {
 	margin-bottom: 4%;
 }
 .out .lear {
 	display: inline-block;
-	margin-top: 10%;
-	padding: 1%;
+	margin-top: 10%;	
 }
 .botom{
 	display: inline-block;
 	margin-top: 5%;
 }
-.out:hover, .lear:hover{
+.out:hover, .lear:hover {
 	background-color: #0dc0c0;
 }
-.out{
+.out {
 	background-color: gray;
 	padding: 10px 16px;
 	margin-right: 10px;	
@@ -57,14 +76,22 @@ h1 {
 	opacity:0.5;
 	padding: 10px 16px;
 }
-/*fin header2 */
-/*section1*/
-.fa {
-	color: #39B5AF;
+/*fin header parte-2 */
+/*section parte 1 y 3*/
+.parte1 {
+	font-family: Arial;
+	font-size: 15px;
+	padding: 50px;
 }
-
-/*section 2*/
-.computador{
+.fa {
+	color: #5ADDE4;
+}
+.xx {
+	padding-left: 5%;
+}
+/*final section parte 1 y 3*/
+/*section parte 2*/
+.computador {
 	background: url("../img/laptop-features.png");
 	height: 500px;
 	background-size: cover;
@@ -77,13 +104,8 @@ h1 {
 	font-size: 30px;
 	padding-bottom: 3%;
 }
-/*parte*/
-.parte1 {
-	font-family: Arial;
-	font-size: 15px;
-	padding: 50px;
-}
-/* parte-5 titulo/nav*/
+/*final section parte-2*/
+/* parte 4 titulo/nav */
 .t-porlfolio {
 	margin-top: 4%;
 }
@@ -102,28 +124,42 @@ h1 {
 	background-color: #0dc0c0;
 	color: white;
 }
-/*parte-5 titulo/nav listo */
-/*parte-5 img*/
+/*parte-4 titulo/nav listo */
+/*parte-4 img*/
 .grid-fondo {
 	background-color: white;
-    border: 1px solid rgb(244, 244, 244);
-    margin-left: 3%;
-    margin-bottom: 3%;
-    font-family: arial;
-    box-shadow: 2px 1px 1px  #888;
+  border: 1px solid rgb(244, 244, 244);
+  margin-left: 3%;
+  margin-bottom: 3%;
+  font-family: arial;
+  box-shadow: 2px 1px 1px  #888;
 }
 .grid-img {
 	width: 445px;
-    padding-top: 3%;   
+  padding-top: 3%;   
 }
 .f-l {
 	margin-left: 8%;
 }
-/*fin parte-5*/
+/*fin parte-4*/
+/* inicio parte5*/
 .fondonoche {
-	height: 450px;
 	background-image: url(../img/background/city.jpg);
-	background-position: top
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	height: 60vh;
+}
+.fondonoche::before {
+	background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.fn-tex {
+	position: relative;
 }
 .negro {
 	background: #424242;
@@ -141,11 +177,11 @@ h1 {
 	border: 1px solid grey;
 	margin: 20px;
 }
-.primer{
+.primer {
 	margin-left: 7%;
 }
-
-/*inicio parte-7*/
+/*fin parte 5 sin terminar
+/*inicio parte 6 */
 .c-p-7 {
 	padding: 2% 5%;
 	font-family: arial;
@@ -163,4 +199,26 @@ h1 {
 	padding-top: 2%;
 	padding-bottom: 4%;
 }
-/*fin parte-7*/
+/*fin parte 6*/
+
+
+/*falta parte 7*/
+
+
+/*parte 8 */
+	.col-12 .fa {
+	margin-left: 3%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+.follow-us {
+	margin-bottom: 3%;
+}
+/*fin parte8*/
+/*footer*/
+.bg-plomo{
+	background-color: #585050;
+    height: 85px;
+    padding-top: 3%;
+}
+/*fin footer*/
