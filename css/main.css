@@ -11,6 +11,7 @@ nav li {
 .lista {	
 	padding-left: 30%;
 }
+
 a:hover {	
 	color: #0dc0c0;
 }
@@ -18,38 +19,158 @@ a:hover {
 .size {
 	font-size: 20px;
 }
-.launch{
+
+a:hover{
+	
+	color: white;
+}
+
+.lis:hover{
+	color:#0dc0c0 ;
+}
+
+
+/*header*/
+
+/*header section 2*/
+.size {
+	font-size: 20px;
+}
+.launch {
 	height: 550px;
     padding-top: 14%;
+    opacity: 0.5;
 }
 h1 {
 	margin-bottom: 4%;
 }
+
 .out .lear {
 	display: inline-block;
 	margin-top: 10%;
 	padding: 1%;
 }
-.out:hover, .lear:hover {
+
+.botom{
+	display: inline-block;
+	margin-top: 5%;
+
+}
+
+.out:hover, .lear:hover{
 	background-color: #0dc0c0;
 }
-.out {
+.out{
 	background-color: gray;
-	margin-right: 4%;
+	padding: 10px 16px;
+	margin-right: 10px;
+	
 }
+<
 .lear {
+
 	background-color: blue;
+	opacity:0.5;
+	padding: 10px 16px;
 }
+
+/*fin header section 2 */
+
+
+/*section 2*/
+
+.computador{
+	background: url("../img/laptop-features.png");
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 10%;
+	text-align: left;
+
+
+}
+
+.m-features{
+	font-size: 30px;
+	padding-bottom: 3%;
+}
+
 /*parte1*/
 .parte1 {
 	font-family: Arial;
 	font-size: 15px;
 	padding: 50px;
 }
-.parrafo {
-	padding-left: 50px;
-	padding-right: 50px;
+
+
+
+
+/* parte-5 titulo/nav*/
+
+.t-porlfolio {
+	margin-top: 4%;
 }
-.fa {
-	color: #40CBBD;
+
+.menu-2 li {
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: inline-block;
 }
+.s-all {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	padding: 8px 12px
+}
+.s-all:hover {
+	background-color: #0dc0c0;
+	color: white;
+}
+
+/*parte-5 titulo/nav listo */
+
+/*parte-5 img*/
+
+.grid-fondo {
+	background-color: white;
+    border: 1px solid rgb(244, 244, 244);
+    margin-left: 3%;
+    margin-bottom: 3%;
+    font-family: arial;
+    box-shadow: 2px 1px 1px  #888;
+}
+.grid-img {
+	width: 445px;
+    padding-top: 3%;
+   
+}
+.f-l {
+	margin-left: 8%;
+}
+
+/*fin parte-5*/
+
+/*inicio parte-7*/
+
+.c-p-7 {
+	padding: 2% 5%;
+	font-family: arial;
+
+}
+
+.customers {
+	border-radius: 50%;
+	width: 15%;
+	padding: 4% 0%;
+
+}
+.what {
+	font-size: 25px;
+	padding-bottom: 5%;
+}
+.diana {
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+/*fin parte-7*/
